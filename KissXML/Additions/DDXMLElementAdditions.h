@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+@import Foundation;
 #import "DDXML.h"
 
 // These methods are not part of the standard NSXML API.
