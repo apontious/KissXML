@@ -1263,7 +1263,7 @@ static void MarkDeath(void *xmlPtr, DDXMLNode *wrapper);
 		}
 		else
 		{
-			NSMutableArray *mResult = [NSMutableArray arrayWithCapacity:count];
+			NSMutableArray *mResult = [NSMutableArray arrayWithCapacity:(NSUInteger)count];
 			
 			int i;
 			for (i = 0; i < count; i++)
